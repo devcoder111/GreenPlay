@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "336786091897",
+    "firebase_url": "https://greenplay-6a6d1.firebaseio.com",
+    "project_id": "greenplay-6a6d1",
+    "storage_bucket": "greenplay-6a6d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336786091897:android:f004e771e795c118c189a8",
+        "android_client_info": {
+          "package_name": "com.greenplayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336786091897-hcpbklknijkjn4um6l18l3ur5586ufag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greenplayapp",
+            "certificate_hash": "b47813a9f9244c29aec0803463a03e2b7d1e6d36"
+          }
+        },
+        {
+          "client_id": "336786091897-tq81d9e0m2ja5114hfkkkl60r0ksstsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWhATC6G-qaZER8a-ZJ1FpFbUBSipoxkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336786091897-tq81d9e0m2ja5114hfkkkl60r0ksstsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

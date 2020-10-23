@@ -1,0 +1,133 @@
+{
+  "data" : {
+    "-M5e5I4DUV_seONIWVq2" : {
+      "ActivityType" : 1,
+      "ChallengeDistance" : "12",
+      "ChallengeName" : "Test without StartDate and Endate",
+      "ChallengeType" : "1",
+      "Description" : "Description",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleEnd" : "06:49:42",
+      "ScheduleStart" : "05:49:42",
+      "ScheduleType" : "1",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "0c4df19a-38ff-4d73-8556-acbd18f5c557",
+      "idReward" : "1",
+      "isDeleted" : 0
+    },
+    "-M5e8O0DX0L7f2WQqYtE" : {
+      "ActivityType" : 124,
+      "ChallengeDistance" : "12",
+      "ChallengeName" : "Test without Schedulestarttime and end time",
+      "ChallengeType" : "1",
+      "Description" : "Description",
+      "EndDate" : "2020-04-18",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "StartDate" : "2020-04-07",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "12a5e696-748e-412f-b440-4d5615ebafc1",
+      "idReward" : "1",
+      "isDeleted" : 0
+    },
+    "-M5e8eLYYEPAsbYHTpcl" : {
+      "ActivityType" : 132,
+      "ChallengeDistance" : "32322332",
+      "ChallengeName" : "Test With different Challenge type",
+      "ChallengeType" : "2",
+      "Description" : "Description",
+      "EndDate" : "2020-04-18",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "StartDate" : "2020-04-07",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "66a5e35b-e342-484a-bc3c-ef9837ff4979",
+      "idReward" : "1",
+      "isDeleted" : 0
+    },
+    "-M5e8hkRGDPwUnlmizjT" : {
+      "ActivityType" : 132,
+      "ChallengeDistance" : "32322332",
+      "ChallengeName" : "Test With different Schedule type",
+      "ChallengeType" : "2",
+      "Description" : "Description",
+      "EndDate" : "2020-04-18",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "StartDate" : "2020-04-07",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "ef38fb10-1486-44f4-a867-96069005996c",
+      "idReward" : "1",
+      "isDeleted" : 0
+    },
+    "-M5e8n4tzhInYsD0xP14" : {
+      "ActivityType" : 132,
+      "ChallengeDistance" : "32322332",
+      "ChallengeName" : "Test With different Schedule type",
+      "ChallengeType" : "2",
+      "Description" : "Description",
+      "EndDate" : "2020-04-18",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "StartDate" : "2020-04-07",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "d5d631bb-c3ac-456a-a7f3-0125572d5a34",
+      "idReward" : "1",
+      "isDeleted" : 0
+    },
+    "-M5e9Rm9pt6mU__wZ67n" : {
+      "ActivityType" : 127,
+      "ChallengeDistance" : "32322332",
+      "ChallengeName" : "Test with nothing",
+      "ChallengeType" : "2",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "39504c1b-391a-4491-837b-39fb4cfac6b9",
+      "isDeleted" : 0
+    },
+    "-M5e9aAIeqLd0TRhvWr6" : {
+      "ActivityType" : 127,
+      "ChallengeDistance" : "32322332",
+      "ChallengeName" : "Test with nothing",
+      "ChallengeType" : "1",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "35fc017c-17e8-4b8d-98df-665b7a8a3565",
+      "isDeleted" : 0
+    },
+    "-M5e9fSJoF4TluX92Sve" : {
+      "ActivityType" : 127,
+      "ChallengeDistance" : "32322332",
+      "ChallengeName" : "Test with nothing",
+      "ChallengeType" : "2",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "8fcd8f36-5726-4508-972a-f6ffe1c9309e",
+      "isDeleted" : 0
+    },
+    "-M5eA0fl_wTGDAn2LMR4" : {
+      "ActivityType" : 127,
+      "ActivityTypeTime" : "12",
+      "ChallengeDistance" : "32322332",
+      "ChallengeName" : "Test with nothing",
+      "ChallengeType" : "2",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "ad124a72-eedb-47d5-8a44-5cc59803a01f",
+      "isDeleted" : 0
+    },
+    "-M5eD7JamG0rRjaYWz-r" : {
+      "ChallengeDistance" : "223",
+      "ChallengeType" : "1",
+      "OwnerOrganisationNo" : 241,
+      "ScheduleType" : "1",
+      "createdBy" : "bertrand Gélinas",
+      "idChallenge" : "3688a294-8bd5-48d7-9031-da8ffa28f38d",
+      "isDeleted" : 0
+    }
+  }
+}

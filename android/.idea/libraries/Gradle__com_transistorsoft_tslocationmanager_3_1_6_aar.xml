@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.transistorsoft:tslocationmanager:3.1.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfb5549b3ae0ef07bf4cb07ea62ff714/jetified-tslocationmanager-3.1.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfb5549b3ae0ef07bf4cb07ea62ff714/jetified-tslocationmanager-3.1.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

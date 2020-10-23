@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="gree" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94a63fec-3e49-4ca2-b953-bac8e5c5cdbd" name="Default Changelist" comment="//for ios">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenplayMobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GreenplayMobile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/background_fetch/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/background_fetch/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/background_fetch/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/background_fetch/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/background_fetch/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/background_fetch/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_for_web/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_for_web/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_for_web/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_for_web/test/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_for_web/test/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_for_web/test/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_macos/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_macos/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_macos/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_macos/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_macos/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/connectivity_macos/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/device_info/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/device_info/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/device_info/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/device_info/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/device_info/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/device_info/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_analytics/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_analytics/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_analytics/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_analytics/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_analytics/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_analytics/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth_web/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth_web/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth_web/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core_web/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core_web/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_core_web/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_crashlytics/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_crashlytics/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_crashlytics/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_crashlytics/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_crashlytics/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_crashlytics/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_database/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_database/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_database/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_database/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_database/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_database/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_messaging/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_messaging/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_messaging/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_messaging/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_messaging/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_messaging/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_storage/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_storage/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_storage/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_storage/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_storage/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_storage/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_background_geolocation/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_background_geolocation/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_background_geolocation/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_background_geolocation/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_background_geolocation/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_background_geolocation/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_email_sender/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_email_sender/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_email_sender/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_email_sender/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_email_sender/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_email_sender/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_plugin_android_lifecycle/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_plugin_android_lifecycle/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_plugin_android_lifecycle/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_plugin_android_lifecycle/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_plugin_android_lifecycle/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_plugin_android_lifecycle/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_webview_plugin/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_webview_plugin/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_webview_plugin/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_webview_plugin/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_webview_plugin/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_webview_plugin/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/fluttertoast/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/fluttertoast/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/fluttertoast/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/fluttertoast/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/fluttertoast/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/fluttertoast/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geocoder/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geocoder/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geocoder/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geocoder/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geocoder/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geocoder/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geolocator/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geolocator/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geolocator/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geolocator/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geolocator/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/geolocator/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_api_availability/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_api_availability/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_api_availability/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_api_availability/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_api_availability/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_api_availability/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_maps_flutter/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_maps_flutter/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_maps_flutter/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_maps_flutter/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_maps_flutter/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_maps_flutter/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_places_picker/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_places_picker/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_places_picker/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_places_picker/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_places_picker/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_places_picker/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in_web/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in_web/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/google_sign_in_web/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_gallery_saver/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_gallery_saver/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_gallery_saver/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_gallery_saver/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_gallery_saver/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_gallery_saver/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_picker/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_picker/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_picker/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_picker/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_picker/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/image_picker/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/location_permissions/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/location_permissions/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/location_permissions/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/location_permissions/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/location_permissions/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/location_permissions/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_linux/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_linux/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_linux/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_linux/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_linux/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_linux/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_macos/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_macos/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_macos/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_macos/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_macos/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/path_provider_macos/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/permission_handler/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/permission_handler/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/permission_handler/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/permission_handler/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/permission_handler/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/permission_handler/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sensors/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sensors/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sensors/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sensors/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sensors/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sensors/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_linux/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_linux/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_linux/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_linux/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_linux/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_linux/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_macos/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_macos/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_macos/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_macos/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_macos/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_macos/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_web/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_web/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/shared_preferences_web/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sqflite/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sqflite/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sqflite/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sqflite/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sqflite/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/sqflite/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_macos/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_macos/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_macos/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_macos/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_macos/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_macos/example/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_web/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_web/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/url_launcher_web/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter/build/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter/example/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter/example/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\infostride\greenplay\project\git\GreenplayMobile\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="280" />
+    <option name="y" value="54" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectId" id="1ZqJqVBIbElwTvdHLoJIm8Fi4Ga" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../open-webrtc-tookit/owt-client-android/src/sample/p2p" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PAVILION\Desktop\GreenplayMobile\lib\utils\formatter" />
+      <recent name="G:\infostride\greenplay\project\git\GreenplayMobile\lib\utils\config" />
+      <recent name="G:\infostride\greenplay\project\git\GreenplayMobile\lib\utils\views_common\search_place" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.greenplayapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\infostride\greenplay\gree_git_latest\GreenplayMobile\lib\ui\home\sessions" />
+      <recent name="G:\infostride\greenplay\gree_git_latest\GreenplayMobile\lib\ui\home\account" />
+      <recent name="C:\Users\PAVILION\Desktop\GreenplayMobile\lib\utils\formatter" />
+      <recent name="C:\Users\PAVILION\Desktop\GreenplayMobile\lib\ui\home\dashboard" />
+      <recent name="C:\Users\PAVILION\Desktop\GreenplayMobile\lib\ui\home\newsfeed" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94a63fec-3e49-4ca2-b953-bac8e5c5cdbd" name="Default Changelist" comment="" />
+      <created>1585560881978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585560881978</updated>
+    </task>
+    <task id="LOCAL-00001" summary="//session refresh">
+      <created>1592428592640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592428592648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="//organisation and branch">
+      <created>1592608120853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592608120853</updated>
+    </task>
+    <task id="LOCAL-00003" summary="//session refresh">
+      <created>1593116040684</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593116040684</updated>
+    </task>
+    <task id="LOCAL-00004" summary="//bugs fixing">
+      <created>1593193709680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593193709680</updated>
+    </task>
+    <task id="LOCAL-00005" summary="//for ios">
+      <created>1593449561870</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593449561870</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ios build">
+      <created>1593539268740</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593539268740</updated>
+    </task>
+    <task id="LOCAL-00007" summary="//session refresh">
+      <created>1593539909706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593539909706</updated>
+    </task>
+    <task id="LOCAL-00008" summary="//session refresh">
+      <created>1593549301322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593549301322</updated>
+    </task>
+    <task id="LOCAL-00009" summary="//session refresh">
+      <created>1593612184522</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593612184522</updated>
+    </task>
+    <task id="LOCAL-00010" summary="//session refresh">
+      <created>1593627681650</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593627681650</updated>
+    </task>
+    <task id="LOCAL-00011" summary="//before graph">
+      <created>1593773494382</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593773494382</updated>
+    </task>
+    <task id="LOCAL-00012" summary="//translations">
+      <created>1593803451915</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593803451915</updated>
+    </task>
+    <task id="LOCAL-00013" summary="//for ios">
+      <created>1594055550184</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594055550184</updated>
+    </task>
+    <task id="LOCAL-00014" summary="with email">
+      <created>1595349314008</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595349314008</updated>
+    </task>
+    <task id="LOCAL-00015" summary="dash-sessio">
+      <created>1595510965414</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595510965414</updated>
+    </task>
+    <task id="LOCAL-00016" summary="sessio">
+      <created>1595524618956</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595524618956</updated>
+    </task>
+    <task id="LOCAL-00017" summary="activity chages">
+      <created>1595532270985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595532270985</updated>
+    </task>
+    <task id="LOCAL-00018" summary="//for ios">
+      <created>1595532865850</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595532865850</updated>
+    </task>
+    <task id="LOCAL-00019" summary="//for ios">
+      <created>1595669598375</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1595669598391</updated>
+    </task>
+    <task id="LOCAL-00020" summary="//for ios">
+      <created>1595866457543</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1595866457543</updated>
+    </task>
+    <task id="LOCAL-00021" summary="//for ios">
+      <created>1595965075600</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595965075600</updated>
+    </task>
+    <task id="LOCAL-00022" summary="//for ios">
+      <created>1596049145709</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596049145709</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1924307" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" weight="0.32910448" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3298731" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.29035753" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="//organisation and branch" />
+    <MESSAGE value="//bugs fixing" />
+    <MESSAGE value="ios build" />
+    <MESSAGE value="//session refresh" />
+    <MESSAGE value="//before graph" />
+    <MESSAGE value="//translations" />
+    <MESSAGE value="with email" />
+    <MESSAGE value="dash-sessio" />
+    <MESSAGE value="sessio" />
+    <MESSAGE value="activity chages" />
+    <MESSAGE value="//for ios" />
+    <option name="LAST_COMMIT_MESSAGE" value="//for ios" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595948334517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595948334517" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1596442059359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596442059359" />
+    <state width="529" height="438" key="DebuggerActiveHint" timestamp="1596441328335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="529" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1596441328335" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1596049322124">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1596049322124" />
+    <state width="1322" height="181" key="GridCell.Tab.0.bottom" timestamp="1596442077282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596442077282" />
+    <state width="1322" height="181" key="GridCell.Tab.0.center" timestamp="1596442077281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596442077281" />
+    <state width="1322" height="181" key="GridCell.Tab.0.left" timestamp="1596442077281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596442077281" />
+    <state width="1322" height="181" key="GridCell.Tab.0.right" timestamp="1596442077282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596442077282" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1596442070825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596442070825" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596217839644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1596217839644" />
+    <state x="370" y="154" key="git4idea.merge.GitPullDialog" timestamp="1595347923916">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="370" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1595347923916" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1595945459174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1595945459174" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/challenges/tabs/active_challenge_screen.dart</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/account/account_page.dart</url>
+          <line>410</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="Dart">
+          <url>file://$PROJECT_DIR$/lib/redux/model/challenge_user_modal.dart</url>
+          <line>10</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/account/account_page.dart</url>
+          <line>2193</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/drawer_page.dart</url>
+          <line>493</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/drawer_page.dart</url>
+          <line>475</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>2974</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/challenges/challenge_detail_page.dart</url>
+          <line>867</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/challenges/challenge_detail_page.dart</url>
+          <line>864</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/challenges/challenge_detail_page.dart</url>
+          <line>993</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/redux/middleware/middleware.dart</url>
+          <line>58</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/challenges/challenge_detail_page.dart</url>
+          <line>350</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/redux/middleware/middleware.dart</url>
+          <line>149</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>189</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>202</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/challenges/challenge_detail_page.dart</url>
+          <line>900</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>233</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>234</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>240</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>237</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>204</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>255</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/utils/services/api_provider.dart</url>
+          <line>206</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3028</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>1409</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3044</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3086</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3049</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3059</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3181</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3174</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3182</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/sessions/session_view_page.dart</url>
+          <line>154</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/sessions/session_view_page.dart</url>
+          <line>158</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3189</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>3225</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/sessions/session_edit_page.dart</url>
+          <line>1490</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/sessions/session_edit_page.dart</url>
+          <line>1480</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/sessions/session_edit_page.dart</url>
+          <line>1470</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/account/account_page.dart</url>
+          <line>239</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>1631</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>1553</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>1641</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/dashboard/dashboard_page.dart</url>
+          <line>1534</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/main.dart</url>
+          <line>571</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/main.dart</url>
+          <line>560</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/main.dart</url>
+          <line>162</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/account/account_page.dart</url>
+          <line>247</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/sessions/session_list_page.dart</url>
+          <line>1082</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ui/home/sessions/session_list_page.dart</url>
+          <line>1145</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="dart-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
